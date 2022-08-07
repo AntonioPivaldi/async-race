@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(43, 161, 78);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.chosen {
+  //font-size: 34px;
+  cursor: context-menu;
+  user-select: none;
+}
+
+.unchosen {
+  cursor: pointer;
+  user-select: none;
+  color: rgb(61, 61, 61);
+}
