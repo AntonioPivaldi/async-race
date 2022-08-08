@@ -7,10 +7,13 @@ export class StatisticsComponent extends Component implements ComponentInstance 
   public template: string | undefined = html;
   public styles: string | undefined = scss;
 
-  public testTemplate = 'This is a meme';
+  public testTemplate = '';
+  
 
   onInit() {
-    
+    setTimeout(() => {
+      this.testTemplate = 'Testing';
+    }, 0); 
   }
 
   onDestroy() {
